@@ -1,0 +1,25 @@
+frase = ' Curso em Video Python '
+print('# - 1 ', frase[3])
+print('# - 2 ', frase[3:13])
+print('# - 3 ', frase[3:13:2])
+print('# - 4 ', frase[:5])
+print('# - 5 ', frase[5:])
+print('# - 6 ', frase[9::2])
+
+print('# - 7 ', len(frase))
+print('# - 8 ', frase.count('e'))
+print('# - 9 ', frase.count('e', 0, 10))
+print('# - 10 ', frase.find('em'))
+
+print('# - 11 ', 'em' in frase)
+
+print('# - 12 ', frase.replace('em', 'para'))
+print('# - 13 ', frase.upper())
+print('# - 14 ', frase.lower())
+print('# - 15 ', frase.capitalize())
+print('# - 16 ', frase.title())
+print('# - 17 ', frase.strip())
+print('# - 18 ', frase.lstrip())
+print('# - 19 ', frase.rstrip())
+print('# - 20 ', frase.split())
+print('# - 21', '-'.join(frase))
